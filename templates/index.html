@@ -1,0 +1,23 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:query {"layout":{"inherit":true},"tagName":"main"} -->
+<main class="wp-block-query">
+    <!-- wp:post-template -->
+    <!-- wp:post-title {"isLink":true} /-->
+    <!-- wp:post-date /-->
+    <!-- wp:post-featured-image {"isLink":true} /-->
+    <!-- wp:post-excerpt /-->
+    <!-- wp:spacer {"height":64} -->
+    <div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+    <!-- /wp:post-template -->
+
+    <!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+    <!-- wp:query-pagination-previous /-->
+    <!-- wp:query-pagination-numbers /-->
+    <!-- wp:query-pagination-next /-->
+    <!-- /wp:query-pagination -->
+</main>
+<!-- /wp:query -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
